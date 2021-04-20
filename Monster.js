@@ -22,7 +22,7 @@ class Monster {
 			rectMode(CENTER)
 			fill(255,0,255)
 			imageMode(CENTER);
-			image(this.image, 0,0,this.r, this.r)
+			image(this.image, 0,0,this.r, this.r);
 			pop()
 			
 	}
